@@ -1,0 +1,21 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.gamedata {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin: 10px auto;
+
+    text-align: center;
+    padding: 5px;
+}
+
+.gamedata.VICTORIA {
+    background-color: lightgreen;
+}
+
+.gamedata.DERROTA {
+    background-color: lightcoral;
+}
